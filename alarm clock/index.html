@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="clock-image">
+            <img src="./clock-removebg-preview.png" alt="">
+        </div>
+        <div class="time-display">
+            <h1>15:06:25 PM</h1>
+        </div>
+        <div class="select-time">
+            <div class="col"><select name="Hours" id="Hours">
+                <option value="hours">Hours</option>
+                <!-- <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option> -->
+            </select></div>
+            
+            <div class="col"><select name="minutes" id="minutes">
+                <option value="min">Minutes</option>
+                <!-- <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option> -->
+            </select></div>
+            
+            <div class="col"><select name="am-pm" id="am-pm">
+                <option value="">AM/PM</option>
+                <option value="AM">AM</option>
+                <option value="PM">PM</option>
+            </select></div>
+            
+        </div>
+        <div class="btn">
+            <button><p>Set Alarm</p>
+            </button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
